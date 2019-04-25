@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+server:
+  port: 9001
+---
+spring:
+  profiles: test
+server:
+  port: 9002
+---
+spring:
+server:
+  port: 9003
+
