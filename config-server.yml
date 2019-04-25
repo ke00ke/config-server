@@ -11,6 +11,8 @@ spring:
       uri: http://localhost:9999
       name: webclient
       profile: dev
+server:
+  port: 8085
 ---
 spring:
   profiles: test
