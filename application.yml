@@ -1,4 +1,4 @@
 
 spring:
-  profiles: prod
-    name: application2
+  application:
+    name: snailmall-config-server
