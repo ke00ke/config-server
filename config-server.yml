@@ -4,15 +4,31 @@ spring:
 ---
 spring:
   profiles: dev
-server:
-  port: 9001
+  cloud:
+    bootstrap:
+      enabled: false
+    config:
+      uri: http://localhost:9999
+      name: webclient
+      profile: dev
 ---
 spring:
   profiles: test
-server:
-  port: 9002
+  cloud:
+    bootstrap:
+      enabled: false
+    config:
+      uri: http://localhost:9999
+      name: webclient
+      profile: test
 ---
 spring:
-server:
-  port: 9003
+  profiles: prod
+  cloud:
+    bootstrap:
+      enabled: false
+    config:
+      uri: http://localhost:9999
+      name: webclient
+      profile: prod
 
