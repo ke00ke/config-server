@@ -22,10 +22,11 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-#  profiles: dev
-  cloud:
-    config:
-      profile: dev
+#  cloud:
+ #   config:
+  #    profile: dev
+  profiles: dev
+
 ---
 spring:
   datasource:
