@@ -50,10 +50,10 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-#  profiles: prod
-  cloud:
-    config:
-      profile: prod
+  profiles: prod
+#  cloud:
+#    config:
+ #     profile: prod
 server:
   port: 7083
   #address: 192.168.1.104
