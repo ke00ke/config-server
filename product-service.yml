@@ -48,7 +48,7 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-  profiles: prod
-#  cloud:
-#    config:
- #     profile: prod
+#  profiles: prod
+  cloud:
+    config:
+      profile: prod
