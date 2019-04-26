@@ -35,7 +35,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.1.107:3306/mmall?useUnicode=true&characterEncoding=utf-8
-    username: root
+    username: 
     password: 
     filters: stat
     maxActive: 20
