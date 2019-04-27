@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.1.107:3306/mmall?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: 456789
+    password: 999999
     filters: stat
     maxActive: 20
     initialSize: 1
